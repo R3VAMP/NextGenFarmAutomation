@@ -449,6 +449,12 @@ main {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	.charts__right__cards {
+		grid-template-columns: 1fr 1fr 4fr;
+	}
+}
+
 @media only screen and (max-width: 480px) {
 	.main__cards {
 		grid-template-columns: 1fr;
